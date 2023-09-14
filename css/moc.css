@@ -1,0 +1,276 @@
+*{
+    box-sizing: border-box;
+}
+@media (min-width:767px){
+    main-header{
+        background-color: #ffc107;
+    }
+}
+@media (min-width:320px){
+    d-flex align-v-center{
+        background-color: #ffc107;
+    }
+}
+body{
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+}
+.main-header{
+    background-color: rgb(100 149 237);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 60px;
+    
+}
+
+.d-flex{
+    display: flex;
+}
+.main-header .links{
+    display: flex;
+    list-style: none;
+}
+.main-header .links a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+.align-v-center{
+    align-items: center;
+}
+.main-header .search{
+    background-color: transparent;
+    border: none;
+}
+main-header button.search {
+    width: 34px;
+}
+.main-header button.search img{
+    width: 80%;
+}
+.mainbanner-section{
+    background-image:linear-gradient(to right, #0000ff36, #1821af70),url(./../mockup/pic/banner_image.jpg);
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 240px;
+
+}
+.mainbanner-section h1{
+    font-size: 50px;
+
+}
+.banner-p{
+    display: block;
+}
+.mainbanner-section button{
+    background-color: #ffc107;
+    color:#fff;
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 30px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+/*********--------Main Banner section end---------------*************/
+/**********--------second banner section Start-----------***********/
+.second-Banner{
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    padding-top: 50px;
+}
+.second-Banner-3-col{
+    display: flex;
+
+}
+.second-Banner h2{
+    font-size: 50px;
+}
+.second-Banner p{
+    padding: 20px;
+}
+/**********-----------yellow-banner-section start--------------*******/
+.yellow-banner-section{
+    text-align: center;
+    background-image:linear-gradient(#ffc107c4, #ffc107c4),url(./../mockup/pic/pet_care_banner.png.jpg);
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 330px;
+}
+.yellow-banner-section h2{
+    font-size: 50px;
+}
+.yellow-content{
+    display: flex;
+    justify-content: space-around;
+}
+.yellow-content > div{
+    border: 8px solid white;
+    border-radius: 50%;
+    padding: 40px;
+    width: 12%;
+    height: 12%;
+}
+
+/**********----------yellow-banner-section End-----------------*******/
+
+
+.blue-section{
+    background-color: #2196f3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 125px 60px;
+}
+.th{
+    width: 65%;
+    padding-left: 80px;
+}
+.blue-section imge{
+    width: 35%;
+    padding-right: 40px;
+}
+.blue-section img{
+    width: 80%;
+    padding-top: 60px;
+}
+.blue-section h4{
+    font-size: 60px;
+    color: white;
+}
+.blue-section p{
+    font-size: 20px;
+    color: white;
+    
+}
+.btn-blue-section{
+    border: 1px solid #ffc107;
+    background-color: #ffc107;
+    border-radius: 14px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+/* blue section reverse code start */
+.blue-section-reverse{
+    background-color: #3f51b5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 115px 60px;
+}
+.th{
+    width: 35%;
+    padding-left: 80px;
+}
+.blue-section-reverse imge{
+    width: 65%;
+    padding-right: 40px;
+}
+.blue-section-reverse img{
+    width: 80%;
+    padding-top: 60px;
+}
+.blue-section-reverse h4{
+    font-size: 60px;
+    color: white;
+}
+.blue-section-reverse p{
+    font-size: 20px;
+    color: white;
+    
+}
+.btn-blue-section{
+    border: 1px solid #ffc107;
+    background-color: #ffc107;
+    border-radius: 14px;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+/* Blue section code reverse code end */
+/* Pricing tag section start */
+
+section.pricing-section { 
+    text-align: center; 
+    background-color: #03a9f4;
+    padding-top: 10px;
+    padding-bottom: 550px;
+}
+
+h5 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+p.p-para {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.pricing{
+    width: 33.333333%;
+    float: left;
+    padding: 45px;
+    
+}
+.pricing > div{
+    background-color: white;
+    border-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.pricing-para{
+    text-align: center;
+}
+.img{
+    width: 100%;
+}
+.img img{
+    width: 50%;
+ } 
+ .pricing-btn{
+    background-color: #ffc107;
+    border: #ffc107;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+ }
+/* pricing code copied from task.css */
+/* two row two column section code start */
+.two-row-two-col{
+    
+    background-color:#3f51b5;
+    padding-top: 10px;
+
+}
+.two-by-two{
+    width: 50%;
+    display: flex;
+}
+.two-col{
+    color: white;
+}
+.two-col-p{
+    display: block;
+}
+.two-col-two{
+    color: white;
+}
+/* two row two column section code end */
+.drjenny{
+
+    background-image: url(./../mockup/pic/dr_Jenny.jpg);
+}
+
