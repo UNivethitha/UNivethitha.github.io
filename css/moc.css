@@ -56,6 +56,7 @@ main-header button.search {
     text-align: center;
     padding-top: 120px;
     padding-bottom: 240px;
+    background-size: cover;
 
 }
 .mainbanner-section h1{
@@ -94,13 +95,18 @@ main-header button.search {
 .second-Banner p{
     padding: 20px;
 }
+.pet{
+    font-size:21px;
+}
 /**********-----------yellow-banner-section start--------------*******/
 .yellow-banner-section{
     text-align: center;
     background-image:linear-gradient(#ffc107c4, #ffc107c4),url(./../mockup/pic/pet_care_banner.png.jpg);
     color: white;
     padding-top: 70px;
-    padding-bottom: 330px;
+    padding-bottom: 120px;
+    background-size: cover;
+    background-position:center;
 }
 .yellow-banner-section h2{
     font-size: 50px;
@@ -248,29 +254,90 @@ p.p-para {
     font-weight: bold;
  }
 /* pricing code copied from task.css */
-/* two row two column section code start */
+/* two row two column section code start
 .two-row-two-col{
     
     background-color:#3f51b5;
     padding-top: 10px;
 
 }
-.two-by-two{
-    width: 50%;
-    display: flex;
-}
-.two-col{
+.two-col > div p{
     color: white;
 }
 .two-col-p{
     display: block;
 }
-.two-col-two{
+.two-col{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-between;
+    
+}
+.two-col > div img{
+    float: left;
+    padding: 40px 40px;
+    text-align: left;
+}
+
+two row two column section code end */
+.two-row-two-col{
+    background-color:#1d72b5;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    
+}
+p.two-row-two-col-p {
+    font-size: 40px;
+    text-align: center;
     color: white;
 }
-/* two row two column section code end */
-.drjenny{
-
-    background-image: url(./../mockup/pic/dr_Jenny.jpg);
+.two-row-two-col-col {
+    display: flex;
+    width: 50%;
+    flex-wrap: wrap;
 }
+img.two-col-img {
+    width: 80px;
+    float: left;
+}
+p.two-col-p {
+    text-align: left;
+}
+/* Yellow banner Dr.Jenny section code start */
 
+.jenny-with-dog{
+    background-image:linear-gradient(#ffeb3bbf, #ffeb3bbf),url(./../mockup/pic/dr_Jenny.jpg);
+    background-position: center;
+    padding: 330px 150px;
+}
+.jenny-with-dog p{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: white;
+}
+/* Yellow banner Dr.jenny section code end */
+/* Footer code start */
+footer.footer-para {
+    background-color: black;
+    padding-top: 85px;
+    padding-bottom: 15px;
+    display: flex;
+    padding-left: 100px;
+}
+.footer-left{
+    width: 25%;
+    color: white;
+   }
+.footer-left-p {
+    font-size: 25px;
+    font-family: fangsong;
+}
+.footer-left-pp{
+    font-family: fangsong;
+}
+/* Footer code end */
