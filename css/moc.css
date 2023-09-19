@@ -48,7 +48,7 @@ main-header button.search {
     padding-top: 120px;
     padding-bottom: 240px;
     background-size: cover;
-    cursor: pointer;
+    
 
 }
 .mainbanner-section h1{
@@ -68,6 +68,7 @@ main-header button.search {
     margin-top: 20px;
     font-size: 17px;
     font-weight: bold;
+    cursor: pointer;
 }
 /*********--------Main Banner section end---------------*************/
 /**********--------second banner section Start-----------***********/
