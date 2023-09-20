@@ -12,20 +12,66 @@ body{
     display: flex;
     justify-content: space-between;
     padding: 15px 60px;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
     
 }
 
+
+/* For Desktop View Responsive code start */
+@media (min-width: 768px){
+    
+    .main-header .links a{
+        color: white;
+        text-decoration: none;
+        padding: 5px 10px;
+    }
+    ul.links li:first-child a {
+        padding-left:0;
+
+    }
+.main-header{
+    flex-direction: row;
+}
+.main-header .search{
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+.second-Banner-3-col{
+    display: flex;
+    flex-direction: column;    
+ }
+ .yellow-content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+.blue-section-reverse{
+    flex-direction: column;
+    align-items: center;
+}
+}
+/* For Desktop View Responsive code End */
+
+.main-header img{
+    width: 100px;
+}
 .d-flex{
     display: flex;
 }
 .main-header .links{
     display: flex;
     list-style: none;
+    padding-left: 0;
 }
 .main-header .links a{
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 5px 10px;
 }
 .align-v-center{
     align-items: center;
@@ -33,6 +79,7 @@ body{
 .main-header .search{
     background-color: transparent;
     border: none;
+    display: block;
 }
 main-header button.search {
     width: 34px;
@@ -48,8 +95,6 @@ main-header button.search {
     padding-top: 120px;
     padding-bottom: 240px;
     background-size: cover;
-    
-
 }
 .mainbanner-section h1{
     font-size: 50px;
@@ -80,9 +125,9 @@ main-header button.search {
     padding-bottom: 50px;
 }
 .second-Banner-3-col{
-    display: flex;
-
-}
+    flex-direction: row; 
+     
+ }
 .second-Banner h2{
     font-size: 50px;
 }
@@ -110,7 +155,7 @@ div > img{
     font-size: 50px;
 }
 .yellow-content{
-    display: flex;
+    flex-direction: row;
     justify-content: space-around;
 }
 .yellow-content > div{
@@ -173,6 +218,7 @@ p.th-pp{
     justify-content: space-evenly;
     padding: 115px 60px;
     color: white;
+    flex-direction: row;
 }
 .th{
     width: 50%;
