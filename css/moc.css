@@ -8,7 +8,7 @@ body{
     margin: 0;
 }
 .main-header{
-    background-color: rgb(100 149 237);
+    background-color: rgb(32 148 243 / 53%);
     display: flex;
     justify-content: space-between;
     padding: 15px 60px;
