@@ -48,20 +48,26 @@ body{
     display: flex;
     flex-direction: column;
     padding:10px 10px;
+    align-items: center;
+    justify-content: center;
+    width: 33.333333%;
    
 }
 .yellow-content > div{
     border: 8px solid white;
     border-radius: 50%;
-    padding: 20px 40px;
+    padding: 20px 70px;
     width: 225px;
-    height: 215px;
+    height: 225px;
 }
 .blue-section{
-    
     flex-direction: column;
 }
-
+.blue-section .imge img{
+    width: 60%;
+    text-align: center;
+    
+}
 }
 /* For Desktop View Responsive code End */
 
@@ -87,7 +93,7 @@ body{
 .main-header .search{
     background-color: transparent;
     border: none;
-    display: block;
+    /* display: block; */
 }
 main-header button.search {
     width: 34px;
@@ -109,7 +115,7 @@ main-header button.search {
 
 }
 .banner-p{
-    display: block;
+    
 }
 .mainbanner-section button{
     background-color: #ffc107;
@@ -163,16 +169,17 @@ div > img{
     font-size: 50px;
 }
 .yellow-content{
-   
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
 }
 .yellow-content > div{
     border: 8px solid white;
     border-radius: 50%;
     padding: 20px 40px;
     width: 225px;
-    height: 215px;
+    height: 225px;
 }
 .yellow-content > div h3{
     font-size: 30px;
@@ -232,7 +239,7 @@ p.th-pp{
 }
 .th{
     width: 50%;
-    padding-left: 80px;
+    /* padding-left: 80px; */
 }
 p.th-p-reverse{
     font-size: 43px;
