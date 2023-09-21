@@ -22,6 +22,73 @@ body{
 
 /* For Mobile View Responsive code start */
 @media (max-width: 767px){
+    .mainbanner-section{
+        background-image:linear-gradient(to right, #0000ff36, #1821af70),url(./../mockup/pic/banner_image.jpg);
+        background-position: center;
+        color: #fff;
+        text-align: center;
+        padding: 120px 70px;
+        background-size: cover;
+    }
+    .second-Banner{
+        text-align: center;
+        background-color: cornflowerblue;
+        color: white;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .second-Banner h2{
+        font-size: 50px;
+    }
+    .second-Banner-3-col{
+        display: flex;
+        flex-direction: column; 
+        padding-left: 10px;
+        padding-right: 10px;   
+     }
+     .pet{
+        font-size:25px;
+    }
+    .pet-pp{
+        font-weight: 100;
+    }
+    .second-Banner-3-col .div > img{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+   
+    .yellow-banner-section{
+        text-align: center;
+        background-image:linear-gradient(#ffc107c4, #ffc107c4),url(./../mockup/pic/pet_care_banner.png.jpg);
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 60px;
+        background-size: cover;
+        background-position:center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .yellow-banner-section h2{
+        font-size: 50px;
+    }
+    
+    .yellow-content > div{
+        border: 8px solid white;
+        border-radius: 50%;
+        padding: 20px 40px;
+        width: 225px;
+        height: 225px;
+    }
+    .yellow-content > div h3{
+        font-size: 30px;
+    }
+    .yellow-content > div p{
+        font-weight: 100;
+    }
+    
     .yellow-content{
         display: flex;
         flex-direction: column;
@@ -112,6 +179,9 @@ body{
         display: flex;
         flex-direction: column;
     }
+    .pricing-section-pp{
+        font-size: 17px;
+    }
     section.pricing-section { 
         text-align: center; 
         background-color: #03a9f4;
@@ -119,20 +189,7 @@ body{
         padding-bottom: 60px;
         color: white;
     }
-    .jenny-with-dog{
-        background-image:linear-gradient(#ffeb3bbf, #ffeb3bbf),url(./../mockup/pic/dr_Jenny.jpg);
-        background-position: center;
-        padding: 220px 375px;
-        background-position: center;
-        background-size: cover;
-}
-.jenny-with-dog p{
-    text-align: center;
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: normal;
-    color: white;
-}
+   
 .tworow-twocol-container {
     display: flex;
     flex-direction: column;
@@ -143,6 +200,60 @@ body{
     text-align: center;
     color: white;
     padding-bottom: 50px;   
+    padding-left: 40px;
+    padding-right: 40px;
+}
+p.two-col-pp{
+    text-align: center;
+    font-size: x-large;
+}
+p.two-row-two-col-p {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.jenny-with-dog{
+    background-image:linear-gradient(#ffeb3bbf, #ffeb3bbf),url(./../mockup/pic/dr_Jenny.jpg);
+    padding: 70px 0px;
+    background-position: center;
+    background-size: cover;
+}
+.jenny-with-dog p{
+    text-align: center;
+font-family: sans-serif;
+font-weight: normal;
+color: white;
+}
+footer.footer-para {
+    background-color: black;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    padding-left: 35px;
+    padding-right: 35px;
+    flex-direction: column;
+}
+.footer-left{
+   text-align: center;
+    color: white;
+   }
+.footer-left-p {
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.footer-left-pp{
+    font-family: sans-serif;
+    list-style-type: none;
+    font-weight: 100;
+}
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 60px;
+    padding-right: 90px;
 }
 }
 
@@ -168,10 +279,69 @@ body{
     border: none;
     display: none;
 }
-.second-Banner-3-col{
+.mainbanner-section{
+    background-image:linear-gradient(to right, #0000ff36, #1821af70),url(./../mockup/pic/banner_image.jpg);
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 240px;
+    background-size: cover;
+}
+.second-Banner{
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.second-Banner h2{
+    font-size: 50px;
+}
+
+ .second-Banner-3-col{
     display: flex;
-    flex-direction: column;    
+     
  }
+ .pet{
+    font-size:25px;
+}
+.pet-pp{
+    font-weight: 100;
+}
+.second-Banner-3-col .div > img{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.yellow-banner-section{
+    text-align: center;
+    background-image:linear-gradient(#ffc107c4, #ffc107c4),url(./../mockup/pic/pet_care_banner.png.jpg);
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 120px;
+    background-size: cover;
+    background-position:center;
+}
+.yellow-banner-section h2{
+    font-size: 50px;
+}
+
+.yellow-content > div{
+    border: 8px solid white;
+    border-radius: 50%;
+    padding: 20px 40px;
+    width: 225px;
+    height: 225px;
+}
+.yellow-content > div h3{
+    font-size: 30px;
+}
+.yellow-content > div p{
+    font-weight: 100;
+}
+
  .yellow-content{
     display: flex;
     justify-content: space-evenly;
@@ -249,6 +419,9 @@ p.th-pp-reverse{
     padding: 35px;
     
 }
+.pricing-section-pp{
+    font-size: 23px;
+}
 .pricing-col{
     display: flex;
 }
@@ -269,7 +442,9 @@ section.pricing-section {
     padding-top: 30px;
     text-align: center;
     color: white;
-    padding-bottom: 50px;   
+    padding-bottom: 50px;
+    padding-left: 40px;   
+    padding-right: 40px;
 }
 p.two-row-two-col-p {
     font-size: 50px;
@@ -311,8 +486,35 @@ font-family: sans-serif;
 font-weight: normal;
 color: white;
 }
+footer.footer-para {
+    background-color: black;
+    padding-top: 85px;
+    padding-bottom: 15px;
+    display: flex;
+    padding-left: 100px;
 }
-/* For Desktop View Responsive code End */
+.footer-left{
+    width: 25%;
+    color: white;
+   }
+.footer-left-p {
+    font-size: 25px;
+    font-family:sans-serif;
+    font-weight: bold;
+}
+.footer-left-pp{
+    font-family: sans-serif;
+    list-style-type: none;
+    font-weight: 100;
+}
+.footer-right {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 160px;
+    width: 75%;
+}
+}
+/* For Desktop View @media (min-width:768px) code End */
 
 .main-header img{
     width: 100px;
@@ -325,7 +527,7 @@ color: white;
     list-style: none;
     padding-left: 0;
 }
-.main-header .links a{
+.main-header .links a{s
     color: white;
     text-decoration: none;
     padding: 5px 10px;
@@ -344,15 +546,7 @@ main-header button.search {
 .main-header button.search img{
     width: 80%;
 }
-.mainbanner-section{
-    background-image:linear-gradient(to right, #0000ff36, #1821af70),url(./../mockup/pic/banner_image.jpg);
-    background-position: center;
-    color: #fff;
-    text-align: center;
-    padding-top: 120px;
-    padding-bottom: 240px;
-    background-size: cover;
-}
+
 .mainbanner-section h1{
     font-size: 50px;
 
@@ -374,57 +568,7 @@ main-header button.search {
 }
 /*********--------Main Banner section end---------------*************/
 /**********--------second banner section Start-----------***********/
-.second-Banner{
-    text-align: center;
-    background-color: cornflowerblue;
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-.second-Banner-3-col{
-    flex-direction: row; 
-     
- }
-.second-Banner h2{
-    font-size: 50px;
-}
-.pet{
-    font-size:25px;
-}
-.pet-pp{
-    font-weight: 100;
-}
-.second-Banner-3-col .div > img{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-/**********-----------yellow-banner-section start--------------*******/
-.yellow-banner-section{
-    text-align: center;
-    background-image:linear-gradient(#ffc107c4, #ffc107c4),url(./../mockup/pic/pet_care_banner.png.jpg);
-    color: white;
-    padding-top: 70px;
-    padding-bottom: 120px;
-    background-size: cover;
-    background-position:center;
-}
-.yellow-banner-section h2{
-    font-size: 50px;
-}
 
-.yellow-content > div{
-    border: 8px solid white;
-    border-radius: 50%;
-    padding: 20px 40px;
-    width: 225px;
-    height: 225px;
-}
-.yellow-content > div h3{
-    font-size: 30px;
-}
-.yellow-content > div p{
-    font-weight: 100;
-}
 
 /**********----------yellow-banner-section End-----------------*******/
 
@@ -446,9 +590,7 @@ main-header button.search {
 p.pricing-section-p {
     font-size: 50px;
 }
-.pricing-section-pp{
-    font-size: 23px;
-}
+
 p.p-para {
     text-align: center;
     color: white;
@@ -497,31 +639,5 @@ img.pricing-img {
 
 /* Yellow banner Dr.jenny section code end */
 /* Footer code start */
-footer.footer-para {
-    background-color: black;
-    padding-top: 85px;
-    padding-bottom: 15px;
-    display: flex;
-    padding-left: 100px;
-}
-.footer-left{
-    width: 25%;
-    color: white;
-   }
-.footer-left-p {
-    font-size: 25px;
-    font-family:sans-serif;
-    font-weight: bold;
-}
-.footer-left-pp{
-    font-family: sans-serif;
-    list-style-type: none;
-    font-weight: 100;
-}
-.footer-right {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 160px;
-    width: 75%;
-}
+
 /* Footer code end */
