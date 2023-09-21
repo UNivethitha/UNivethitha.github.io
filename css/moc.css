@@ -20,8 +20,136 @@ body{
 }
 
 
+/* For Mobile View Responsive code start */
+@media (max-width: 767px){
+    .yellow-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .blue-section{
+        background-color: #2196f3;
+        display: flex;
+        color: white;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .blue-section-th{
+        width: 100%;
+        text-align: center;
+    }
+    p.th-p {
+        font-size: 43px;
+        text-align: center;
+    }
+    p.th-pp{
+        font-size: 20px;
+        font-weight: 100;
+        text-align: center;
+    }
+    .imge{
+        width: 70%;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .blue-section img{
+        width: 100%;
+        padding-top: 30px;
+    }
+    .btn-blue-section{
+        border: 1px solid #ffc107;
+        background-color: #ffc107;
+        border-radius: 47px;
+        padding: 10px 70px;
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+        cursor: pointer;
+        text-align: center;
+    
+    }
+    .blue-section-reverse{
+        background-color: #3f51b5;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        color: white;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    p.th-p-reverse{
+        font-size: 43px;
+        text-align: center;
+    }
+    p.th-pp-reverse{
+        font-size: 20px;
+        font-weight: normal;
+        text-align: center;
+    }
+    .blue-section-reverse imge{
+        width: 50%;
+        text-align: center;
+    }
+    .blue-section-reverse img{
+        width: 70%;
+    }
+    .blue-section-reverse-th{
+        width: 100%;   
+        text-align: center; 
+        padding-bottom: 50px; 
+       
+    }
+    .pricing{
+       width: 100%;
+       padding-left: 40px;
+       padding-right: 40px;
+       padding-top: 40px;
+        
+    }
+    .pricing-col{
+        display: flex;
+        flex-direction: column;
+    }
+    section.pricing-section { 
+        text-align: center; 
+        background-color: #03a9f4;
+        padding-top: 10px;
+        padding-bottom: 60px;
+        color: white;
+    }
+    .jenny-with-dog{
+        background-image:linear-gradient(#ffeb3bbf, #ffeb3bbf),url(./../mockup/pic/dr_Jenny.jpg);
+        background-position: center;
+        padding: 220px 375px;
+        background-position: center;
+        background-size: cover;
+}
+.jenny-with-dog p{
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: normal;
+    color: white;
+}
+.tworow-twocol-container {
+    display: flex;
+    flex-direction: column;
+}
+.two-row-two-col{
+    background-color:#1d72b5;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;   
+}
+}
+
+
 /* For Desktop View Responsive code start */
 @media (min-width: 768px){
+
     
     .main-header .links a{
         color: white;
@@ -46,27 +174,142 @@ body{
  }
  .yellow-content{
     display: flex;
-    flex-direction: column;
-    padding:10px 10px;
+    justify-content: space-evenly;
     align-items: center;
-    justify-content: center;
-    width: 33.333333%;
-   
-}
-.yellow-content > div{
-    border: 8px solid white;
-    border-radius: 50%;
-    padding: 20px 70px;
-    width: 225px;
-    height: 225px;
+    flex-direction: row;
+
 }
 .blue-section{
     flex-direction: column;
 }
-.blue-section .imge img{
-    width: 60%;
+.blue-section{
+    background-color: #2196f3;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 125px 60px;
+    color: white;
+    flex-direction: row;
+}
+.blue-section th{
+    width: 50%;
+}
+p.th-p {
+    font-size: 43px;
+}
+p.th-pp{
+    font-size: 20px;
+    font-weight: 100;
+}
+.blue-section imge{
+    width: 50%;
     text-align: center;
+}
+.blue-section img{
+    width: 60%;
+}
+.btn-blue-section{
+    border: 1px solid #ffc107;
+    background-color: #ffc107;
+    border-radius: 47px;
+    padding: 10px 70px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+p.th-p-reverse{
+    font-size: 43px;
+}
+p.th-pp-reverse{
+    font-size: 20px;
+    font-weight: normal;
+}
+.blue-section-reverse imge{
+    width: 50%;
+    text-align: center;
+}
+.blue-section-reverse img{
+    width: 70%;
+}
+.blue-section-reverse{
+    background-color: #3f51b5;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 115px 60px;
+    color: white;
+    flex-direction: row;
+}
+.th{
+    width: 50%;
+    /* padding-left: 80px; */
+}
+.pricing{
+    width: 33.333333%;
+    padding: 35px;
     
+}
+.pricing-col{
+    display: flex;
+}
+section.pricing-section { 
+    text-align: center; 
+    background-color: #03a9f4;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    color: white;
+}
+.tworow-twocol-container{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.two-row-two-col{
+    background-color:#1d72b5;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+    padding-bottom: 50px;   
+}
+p.two-row-two-col-p {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.two-row-two-col-col {
+    float: left;
+    width: 50%;
+   padding-left: 15px;
+   padding-right: 15px;
+    
+}
+img.two-col-img {
+    width: 100px;
+    float: left;
+    padding: 30px 15px;
+}
+p.two-col-p {
+    text-align: left;
+    font-weight: 100;
+}
+p.two-col-pp{
+    text-align: left;
+    font-size: x-large;
+}
+
+.jenny-with-dog{
+    background-image:linear-gradient(#ffeb3bbf, #ffeb3bbf),url(./../mockup/pic/dr_Jenny.jpg);
+    background-position: center;
+    padding: 220px 375px;
+    background-position: center;
+    background-size: cover;
+}
+.jenny-with-dog p{
+text-align: center;
+font-size: 30px;
+font-family: sans-serif;
+font-weight: normal;
+color: white;
 }
 }
 /* For Desktop View Responsive code End */
@@ -115,7 +358,7 @@ main-header button.search {
 
 }
 .banner-p{
-    
+     display: block; 
 }
 .mainbanner-section button{
     background-color: #ffc107;
@@ -151,7 +394,7 @@ main-header button.search {
 .pet-pp{
     font-weight: 100;
 }
-div > img{
+.second-Banner-3-col .div > img{
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -168,12 +411,7 @@ div > img{
 .yellow-banner-section h2{
     font-size: 50px;
 }
-.yellow-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-}
+
 .yellow-content > div{
     border: 8px solid white;
     border-radius: 50%;
@@ -191,90 +429,20 @@ div > img{
 /**********----------yellow-banner-section End-----------------*******/
 
 
-.blue-section{
-    background-color: #2196f3;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 125px 60px;
-    color: white;
-    flex-direction: row;
-}
-.th{
-    width: 50%;
-}
-p.th-p {
-    font-size: 43px;
-}
-p.th-pp{
-    font-size: 20px;
-    font-weight: 100;
-}
-.imge{
-    width: 50%;
-    text-align: center;
-}
-.blue-section img{
-    width: 60%;
-}
-.btn-blue-section{
-    border: 1px solid #ffc107;
-    background-color: #ffc107;
-    border-radius: 47px;
-    padding: 10px 70px;
-    color: white;
-    font-size: 20px;
-    font-family: sans-serif;
-    cursor: pointer;
 
-}
+
+
+
 
 /* blue section reverse code start */
-.blue-section-reverse{
-    background-color: #3f51b5;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 115px 60px;
-    color: white;
-    flex-direction: row;
-}
-.th{
-    width: 50%;
-    /* padding-left: 80px; */
-}
-p.th-p-reverse{
-    font-size: 43px;
-}
-p.th-pp-reverse{
-    font-size: 20px;
-    font-weight: normal;
-}
-.blue-section-reverse imge{
-    width: 50%;
-    text-align: center;
-}
-.blue-section-reverse img{
-    width: 70%;
-}
-.btn-blue-section{
-    border: 1px solid #ffc107;
-    background-color: #ffc107;
-    border-radius: 47px;
-    padding: 10px 70px;
-    color: white;
-    font-size: 20px;
-    font-family: sans-serif;
-    cursor: pointer;
-}
+
+
+
+
 /* Blue section code reverse code end */
 /* Pricing tag section start */
 
-section.pricing-section { 
-    text-align: center; 
-    background-color: #03a9f4;
-    padding-top: 10px;
-    padding-bottom: 550px;
-    color: white;
-}
+
 p.pricing-section-p {
     font-size: 50px;
 }
@@ -286,12 +454,7 @@ p.p-para {
     color: white;
     font-size: 20px;
 }
-.pricing{
-    width: 33.333333%;
-    float: left;
-    padding: 35px;
-    
-}
+
 .pricing > div{
     background-color: white;
     border-color: white;
@@ -328,55 +491,10 @@ img.pricing-img {
 /* pricing code copied from task.css */
 
 /* two row two column section code end */ 
-.two-row-two-col{
-    background-color:#1d72b5;
-    padding-top: 30px;
-    text-align: center;
-    color: white;
-    padding-bottom: 400px;   
-}
-p.two-row-two-col-p {
-    font-size: 50px;
-    text-align: center;
-    color: white;
-}
-.two-row-two-col-col {
-    float: left;
-    width: 50%;
-   padding-left: 130px;
-   padding-right: 100px;
-    
-}
-img.two-col-img {
-    width: 100px;
-    float: left;
-    padding: 30px 15px;
-}
-p.two-col-p {
-    text-align: left;
-    font-weight: 100;
-}
-p.two-col-pp{
-    text-align: left;
-    font-size: x-large;
-}
 
 /* Yellow banner Dr.Jenny section code start */
 
-.jenny-with-dog{
-        background-image:linear-gradient(#ffeb3bbf, #ffeb3bbf),url(./../mockup/pic/dr_Jenny.jpg);
-        background-position: center;
-        padding: 220px 375px;
-        background-position: center;
-        background-size: cover;
-}
-.jenny-with-dog p{
-    text-align: center;
-    font-size: 30px;
-    font-family: sans-serif;
-    font-weight: normal;
-    color: white;
-}
+
 /* Yellow banner Dr.jenny section code end */
 /* Footer code start */
 footer.footer-para {
