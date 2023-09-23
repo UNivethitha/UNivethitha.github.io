@@ -30,6 +30,32 @@ body{
         padding: 120px 70px;
         background-size: cover;
     }
+    .mainbanner-section-btn{
+
+    background-color: #ffc107;
+    color:#fff;
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 30px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    }
+    .mainbanner-section-btn:hover{
+
+    background-color: #f9d463;
+    color:#fff;
+    border: 2px solid #f9d463;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 30px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    }
     .second-Banner{
         text-align: center;
         background-color: cornflowerblue;
@@ -137,6 +163,17 @@ body{
         text-align: center;
     
     }
+    .btn-blue-section:hover{
+        border: 1px solid #f3c026;
+        background-color: #f3c026;
+        border-radius: 47px;
+        padding: 10px 70px;
+        color: white;
+        font-size: 20px;
+        font-family: sans-serif;
+        cursor: pointer;
+        text-align: center;
+    }
     .blue-section-reverse{
         background-color: #3f51b5;
         display: flex;
@@ -182,6 +219,16 @@ body{
     .pricing-section-pp{
         font-size: 17px;
     }
+    .pricing-btn:hover{
+        background-color: #f3c026;
+        border: #f3c026;
+        border-radius: 40px;
+        color: white;
+        padding: 20px 80px;
+        font-size: 18px;
+        font-weight: bold;
+        cursor: pointer;
+     }
     section.pricing-section { 
         text-align: center; 
         background-color: #03a9f4;
@@ -288,6 +335,30 @@ footer.footer-para {
     padding-bottom: 240px;
     background-size: cover;
 }
+.mainbanner-section button{
+    background-color: #ffc107;
+    color:#fff;
+    border: 2px solid #ffc107;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 30px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.mainbanner-section-btn:hover{
+    background-color: #f1cf69;
+    color:#fff;
+    border: 2px solid #f1cf69;
+    border-radius: 10px;
+    text-decoration: none;
+    padding:10px 30px;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
 .second-Banner{
     text-align: center;
     background-color: cornflowerblue;
@@ -388,6 +459,17 @@ p.th-pp{
     cursor: pointer;
     text-align: center;
 }
+.btn-blue-section:hover{
+    border: 1px solid #f3c026;
+    background-color: #f3c026;
+    border-radius: 47px;
+    padding: 10px 70px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
 p.th-p-reverse{
     font-size: 43px;
 }
@@ -419,6 +501,26 @@ p.th-pp-reverse{
     padding: 35px;
     
 }
+.pricing-btn{
+    background-color: #ffc107;
+    border: #ffc107;
+    border-radius: 40px;
+    color: white;
+    padding: 20px 80px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+ }
+ .pricing-btn:hover{
+    background-color: #f3c026;
+    border: #f3c026;
+    border-radius: 40px;
+    color: white;
+    padding: 20px 80px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+ }
 .pricing-section-pp{
     font-size: 23px;
 }
@@ -527,7 +629,7 @@ footer.footer-para {
     list-style: none;
     padding-left: 0;
 }
-.main-header .links a{s
+.main-header .links a{
     color: white;
     text-decoration: none;
     padding: 5px 10px;
@@ -538,7 +640,7 @@ footer.footer-para {
 .main-header .search{
     background-color: transparent;
     border: none;
-    /* display: block; */
+     display: block; 
 }
 main-header button.search {
     width: 34px;
@@ -554,18 +656,7 @@ main-header button.search {
 .banner-p{
      display: block; 
 }
-.mainbanner-section button{
-    background-color: #ffc107;
-    color:#fff;
-    border: 2px solid #ffc107;
-    border-radius: 10px;
-    text-decoration: none;
-    padding:10px 30px;
-    margin-top: 20px;
-    font-size: 17px;
-    font-weight: bold;
-    cursor: pointer;
-}
+
 /*********--------Main Banner section end---------------*************/
 /**********--------second banner section Start-----------***********/
 
