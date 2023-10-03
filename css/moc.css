@@ -2,6 +2,21 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: 'Poppins';
+    src: url('./fonts/Poppins-Regular.ttf') format('truetype');
+ }
+
+ @font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('./fonts/Poppins-SemiBold.ttf') format('truetype');
+ }
+
+ @font-face {
+    font-family: 'Poppins-Bold';
+    src: url('./fonts/Poppins-Bold.ttf') format('truetype');
+ }
+
 body{
     font-family: sans-serif;
     font-weight: bold;
